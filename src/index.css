@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #21b6a8 !important;
+}
+
+.navbar a {
+  font-size: 1.3rem !important;
+  text-transform: capitalize;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #21b6a8;
+}
+
+.navbar a:hover {
+  color: #21b6a8 !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+.nav-button {
+  font-weight: 700;
+  font-size: 20px;
+  display: inline-block;
+  padding: 0px 5px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #21b6a8;
+  border: 5px solid #21b6a8;
+  text-decoration: none;
+}
+
+/*
+#Main Landing section
+------------------------------------------------------------------------------------------*/
+#header {
+
+  background-color: #F7F5F5;
+  width: 80%;
+  padding: 50px 0 50px 0;
+  height: 80vh;
+  top: auto;
+  margin-top: 0px;
+  position: relative;
+}
+
+#header h1 {
+  margin: 0 0 30px 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: #21b6a8;
+}
+
+ #body h2 {
+  color: #21b6a8;
+  font-size: 30px;
+  text-align: center;
+  text-shadow:2px 2px #fff;
+  
+   } 
+
+#header .btn-get-started {
+  font-weight: 900;
+  font-size: 25px;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: black;
+  border: 5px solid #21b6a8;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+  background: #21b6a8;
+  color: #fff;
+}
+
+.header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+#body .learn-more {
+  font-weight: 500;
+  font-size: 20px;
+  display: inline-block;
+  padding: 3px 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background-color: #21b6a8;
+  text-decoration: none;
+  box-shadow: 30px;
+  
+  }
+
+  #body .container-fluid {
+background-image: url("imges/bg.png") ;
+           background-size: cover;
+width:80%;
+padding: 50px 0 50px 0;
+  }
+
+  p{
+    color: #fff;
+    padding-left: 80px;
+    font-size: 20px;
+    text-decoration: underline;
+     }
+     /* body2-------------------------------------------------------------------- */
+    #body2 .p {
+      color: black;
+      text-align: center;
+    }
+
+    .benefit-text {
+      color: black;
+    }
+
+    #body2 .container-fluid {
+      background-color: #F7F5F5;
+      width:80%;
+      padding: 50px 0 50px 0;
+        }
+
+        #body2 h2 {
+          color: #21b6a8;
+          font-size: 40px;
+          text-align: right;
+          text-shadow:2px 2px #fff;
+          padding-left: 80px;
+          
+           } 
+           h3 {
+             padding-top: 20px;
+             text-align: center;
+                     }
+
+           .about-2 {
+            padding-top: 75px;
+            text-align: center;
+                   }
+          /* ------------tokenomics-------------------------------------------------------------------- */
+          #tokenomics .container-fluid {
+           background-image: url("imges/bg.png") ;
+           background-size: cover;
+            width:80%;
+            padding-top: 30px;
+          padding-bottom: 50px;              }
+
+          #tokenomics h3 {
+                padding-top: 20px;
+                color: #21b6a8;
+                padding-left: 80px;
+                font-size: 40px;
+                text-align: center;                           
+          }
+          #tokenomics h4 {
+            color: #fff;
+          }
+
+          #tokenomics .img-fluid{
+            padding-top: 150px;
+          }
+
+          #tokenomics .img-fluid2{
+            padding-top: 225px;
+          }
+
+         
+/* ---------------------------------Ranking------------------------------------------------------- */
+ 
+.container-fluid-1{
+  background-color: #F7F5F5;
+  width: 80%;
+  padding: 50px 0 50px 0;
+}
+
+.button {
+  background-color: #21b6a8;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 30px;
+}
+
+#top-header {
+  background-color: #F7F5F5;
+  width:80%;
+  padding: 0px 50px 0px 50px;
+  margin-left: 190px;
+    }        
+
+#ranking h2 {
+  color: #21b6a8;
+}
+
+#ranking h3 {
+  color: #21b6a8;
+}
+/* -------------------Roadmap------------------------------------------------------------------- */
+#roadmap .container-fluid {
+  background-image: url("imges/bg.png") ;
+  background-size: cover;
+   width:80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}  
+
+#roadmap h3 {
+  color: #21b6a8;
+  font-size: 48px;
+}
+
+#roadmap h4 {
+  color: #F7F5F5;
+  font-size: 30px;
+}
